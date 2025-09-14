@@ -1,0 +1,4 @@
+new entry "CBR_HUGS"
+type "SpellData"
+using "CBR_HUGS"
+data "SpellFlags" "OnlyCastOutsideCombat"

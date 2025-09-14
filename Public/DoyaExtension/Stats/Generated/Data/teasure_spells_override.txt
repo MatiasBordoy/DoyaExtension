@@ -1,0 +1,5 @@
+new entry "Target_TCP_SummonChest"
+type "SpellData"
+using "Target_TCP_SummonChest"
+data "RequirementConditions" "False()"   // nunca cumple requisitos
+data "UseConditions" "False()"           // y aunque cumpla, no lo puede usar

@@ -1,0 +1,119 @@
+// ==========================================================
+// DOYA Extension - HUGS (override completo)
+// - Se otorga via tu ítem/pasiva (sin autolink global)
+// - Aparece en el TAB Temporary (derecha)
+// - No usable en combate (OnlyCastOutsideCombat)
+// - Solo jugadores/mercenarios (IsPlayerControlled) y NO summons
+// ==========================================================
+
+// ====== CONTENEDOR ======
+new entry "CBR_HUGS"
+type "SpellData"
+using "CBR_HUGS"
+data "TargetRadius" "5"
+data "TargetConditions" "Character()"
+//data "SpellFlags" "Temporary;IsLinkedSpellContainerT;OnlyCastOutsideCombat"
+data "SpellFlags" "IsLinkedSpellContainerT;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// ====== HIJOS ======
+
+// Astarion
+new entry "HUG_SPELL_Ast"
+type "SpellData"
+using "HUG_SPELL_Ast"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "5"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Daisy
+new entry "HUG_SPELL_Daisy"
+type "SpellData"
+using "HUG_SPELL_Daisy"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "5"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Guardian
+new entry "HUG_SPELL_Guardian"
+type "SpellData"
+using "HUG_SPELL_Guardian"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "5"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Gale
+new entry "HUG_SPELL_Gale"
+type "SpellData"
+using "HUG_SPELL_Gale"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "5"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Karlach
+new entry "HUG_SPELL_Karlach"
+type "SpellData"
+using "HUG_SPELL_Karlach"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "1"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Halsin
+new entry "HUG_SPELL_Halsin"
+type "SpellData"
+using "HUG_SPELL_Halsin"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "0.5"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Shadowheart
+new entry "HUG_SPELL_Shad"
+type "SpellData"
+using "HUG_SPELL_Shad"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "1"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// Small creatures
+new entry "HUG_SPELL_Small"
+type "SpellData"
+using "HUG_SPELL_Small"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "1"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"
+
+// RevS
+new entry "HUG_SPELL_RevS"
+type "SpellData"
+using "HUG_SPELL_RevS"
+data "SpellContainerID" "CBR_HUGS"
+data "TargetRadius" "1"
+data "TargetConditions" "Character()"
+data "SpellFlags" "ImmediateCast;OnlyCastOutsideCombat"
+data "UseConditions" "IsPlayerControlled() and not IsSummon()"
+data "AIFlags" "CanNotUse"

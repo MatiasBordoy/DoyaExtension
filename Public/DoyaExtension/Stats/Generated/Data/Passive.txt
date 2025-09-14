@@ -1,0 +1,6 @@
+new entry "Doya_Custom_Actions"
+type "PassiveData"
+data "DisplayName" "h202f470bgbcc7g4799g98a2g1fb746028cbb"
+data "Icon" "Spell_Abjuration_Transmutation_Shillelagh"
+data "Properties" "Permanent"
+data "Boosts" "UnlockSpell(CBR_HUGS)"

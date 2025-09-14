@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="9863566c88e7" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="0573af28-9f57-432b-8135-c04751e845ec" version="1" />
+					<attribute id="Icon" type="FixedString" value="AMX_Item_AMX_GREATSWORD_PALADIN_RADIANT_1A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6b64228c-0c38-4f01-ad11-4c51cfc14d1b" />
+					<attribute id="Name" type="LSString" value="DOYA_SHION_GREATSWORD" />
+					<attribute id="ParentTemplateId" type="FixedString" value="455383a5-1211-4500-85f9-b71fad3fbf15" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="DOYA_SHION_GREATSWORD" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855928" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7c54228c-0a78-4f91-bc11-5a12cfc16d2b" />
+					<attribute id="Name" type="LSString" value="Doya_Absorb_Skill_Gem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Doya_Absorb_Skill_Gem" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a044a1b0-6ec6-40fe-bfc8-a8b0363aa831" />
+					<attribute id="Name" type="LSString" value="Doya_Absorb_Enchantment_Gem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Doya_Absorb_Enchantment_Gem" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8313311e-1900-4c1c-bfbe-2edd6501bb8e" />
+					<attribute id="Name" type="LSString" value="Doya_Absorb_Spell_Gem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Doya_Absorb_Spell_Gem" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="beb02225-748b-4927-85b4-db53c5f97763" />
+					<attribute id="Name" type="LSString" value="Doya_Absorb_Damage_Gem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Doya_Absorb_Damage_Gem" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="69392862-04b4-44e7-8c7d-a88f12b81bfb" />
+					<attribute id="Name" type="LSString" value="Doya_Absorb_Passsive_Gem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Doya_Absorb_Passive_Gem" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="c431eec9-94a8-4f37-99c9-d9d248632446" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5e08865c-65c4-4f2e-85e1-71bab7880d90" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_B_1" />
+					<attribute id="MapKey" type="FixedString" value="83f90d39-5af3-4e71-a2d3-81b31f5bd320" />
+					<attribute id="Name" type="LSString" value="DOYA_Ring_Custom_Actions" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7ff7d7b1-6fdd-44b7-b0ca-d9f4ebf5bb72" />
+					<attribute id="Stats" type="FixedString" value="DOYA_Ring_Custom_Actions" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,26 @@
+IF GameStarted()
+THEN
+  PROC DOYA_GrantCustomActionsToParty();
+
+IF LevelGameplayStarted()
+THEN
+  PROC DOYA_GrantCustomActionsToParty();
+
+PROC DOYA_GrantCustomActionsToParty()
+AND DB_PartyMembers(_Char)
+AND IsPlayerControlled(_Char, 1)
+AND NOT IsSummon(_Char)
+THEN
+  AddPassive(_Char, "Doya_Custom_Actions");
+  ApplyStatus(_Char, "DOYA_DEBUG_APPLIED", 6.0, 1);
+// Al unirse alguien al party
+IF CharacterJoinedParty(_Char)
+AND IsPlayerControlled(_Char, 1)
+AND NOT IsSummon(_Char)
+THEN
+  AddPassive(_Char, "Doya_Custom_Actions");
+  ApplyStatus(_Char, "DOYA_DEBUG_APPLIED", 6.0, 1);
+// Limpieza para invocaciones por si heredan algo
+IF OnStatusApplied(_Summon, "SUMMONED", _)
+THEN
+  RemovePassive(_Summon, "Doya_Custom_Actions");

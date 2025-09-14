@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49" />
+  <region id="Config">
+    <node id="root">
+      <children>
+        <!-- Dependencias: mismo formato que tu mod que funciona -->
+        <node id="Dependencies">
+          <children>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSWString" value="CBR_Hugs" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="FixedString" value="CBR_Hugs" />
+              <attribute id="UUID" type="FixedString" value="cacbb24c-2650-4588-a0d2-5eb29eb80e98" />
+              <attribute id="Version64" type="int64" value="144115188075855872" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSWString" value="CBR_Romance" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="FixedString" value="CBR_Romance" />
+              <attribute id="UUID" type="FixedString" value="880a9d7f-9f2a-4448-8f49-7c9a2f9f40b8" />
+              <attribute id="Version64" type="int64" value="180284722583175168" />
+              <node id="ModuleShortDesc">
+                <attribute id="Folder" type="LSWString" value="TutorialChestSummoning" />
+                <attribute id="MD5" type="LSString" value="" />
+                <attribute id="Name" type="FixedString" value="TutorialChestSummoning" />
+                <attribute id="UUID" type="FixedString" value="505c630c-79fa-49b6-9f21-29a5f2322c2d" />
+                <attribute id="Version64" type="int64" value="73324231433125889" />
+              </node>
+              <node id="ModuleShortDesc">
+                <attribute id="Folder" type="LSWString" value="Custom Faction Battle" />
+                <attribute id="MD5" type="LSString" value="" />
+                <attribute id="Name" type="FixedString" value="Custom Faction Battle" />
+                <attribute id="UUID" type="FixedString" value="08c25d6c-0a9b-4180-a7a7-021634d34a11" />
+                <attribute id="Version64" type="int64" value="36028803461414912" />
+              </node>
+              <node id="ModuleShortDesc">
+                <attribute id="Folder" type="LSWString" value="HumanForge" />
+                <attribute id="MD5" type="LSString" value="" />
+                <attribute id="Name" type="FixedString" value="HumanForge" />
+                <attribute id="UUID" type="FixedString" value="b93bdeb7-3897-4616-9442-f4cf620d53e2" />
+                <attribute id="Version64" type="int64" value="36028797018963969" />
+              </node>
+            </node>
+          </children>
+        </node>
+        <!-- Info del módulo -->
+        <node id="ModuleInfo">
+          <attribute id="Author" type="LSWString" value="Matias Bordoy" />
+          <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
+          <attribute id="Description" type="LSWString" value="Enables traspassing skills, enchantments, passives, spells from one equipment to other" />
+          <attribute id="Folder" type="LSWString" value="DoyaExtension" />
+          <attribute id="GMTemplate" type="FixedString" value="" />
+          <attribute id="LobbyLevelName" type="FixedString" value="" />
+          <attribute id="MD5" type="LSString" value="" />
+          <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
+          <attribute id="MenuLevelName" type="FixedString" value="" />
+          <attribute id="Name" type="FixedString" value="DoyaExtension" />
+          <attribute id="NumPlayers" type="uint8" value="4" />
+          <attribute id="PhotoBooth" type="FixedString" value="" />
+          <attribute id="StartupLevelName" type="FixedString" value="" />
+          <attribute id="Tags" type="LSWString" value="Customization" />
+          <attribute id="Type" type="FixedString" value="Add-on" />
+          <!-- ATENCIÓN: verificá tu UUID. Debe ser 8-4-4-4-12 hex, sin espacios raros. -->
+          <attribute id="UUID" type="FixedString" value="0d3f5f9d-a181-bcf6-6127-0084e0cbb91c" />
+          <attribute id="Version64" type="int64" value="36028797018963968" />
+          <children>
+            <node id="PublishVersion">
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="Scripts" />
+            <node id="TargetModes">
+              <children>
+                <node id="Target">
+                  <attribute id="Object" type="FixedString" value="Story" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

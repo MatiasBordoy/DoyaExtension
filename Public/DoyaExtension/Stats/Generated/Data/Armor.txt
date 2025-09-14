@@ -1,0 +1,7 @@
+new entry "DOYA_Ring_Custom_Actions"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "83f90d39-5af3-4e71-a2d3-81b31f5bd320
+data "ValueUUID" ""
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "DOYA_Custom_Actions"
